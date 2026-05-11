@@ -40,7 +40,7 @@ app.post('/scan', async (req, res) => {
           valor_venda: null,
           link_imovel: href.startsWith('http')
             ? href
-            : `https://venda-imoveis.caixa.gov.br${href}`,
+            : `https://www.leilaoimovel.com.br/banco_leilao_de_imoveis/caixa-economica-federal-cef?s=&tipo=2&estado=35&desconto_min=10&desconto_max=65&preco_max=224440${href}`,
           link_matricula: null
         });
 
